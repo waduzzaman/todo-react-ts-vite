@@ -27,7 +27,7 @@ export const AddTodo = () => {
 
   return (
     <div>
-      <h1 className='text-center mt-5 from-neutral-900' style={{ fontSize: 50 }}>To Do List</h1>
+      <h1 className='text-center mt-5 mb-5 from-neutral-900' style={{ fontSize: 50 }}>To Do List</h1>
       <form onSubmit={handleSubmission}>
       <div className="flex items-center w-full max-w-lg gap-2 p-5 m-auto">
         <Input
